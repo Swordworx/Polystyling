@@ -2,17 +2,15 @@
 
 Polymer shared styling using CSS files.
 
-Live example 
-
-# Installation
+## Installation
 
 ```
-bower update
-npm intall
+$ bower update
+$ npm intall
 ```
 
-# Running
+## Running
 
 ```
-npm start
+$ npm start
 ```
