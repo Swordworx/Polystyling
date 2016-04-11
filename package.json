@@ -7,5 +7,9 @@
   	"start": "ws -p 9128"
   },
   "author": "Swordworx",
-  "license": "MIT"
+  "license": "MIT",
+  "repository" : {
+  	"type" : "git",
+  	"url" : "https://github.com/Swordworx/Polystyling.git"
+  }
 }
