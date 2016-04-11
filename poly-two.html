@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+	<!-- Import Polymer -->
+    <link href="./bower_components/polymer/polymer.html" rel="import">
+</head>
+<dom-module id="poly-two">
+  <!-- Import Sheet Directly -->
+  <link rel="import" type="css" href="./styles/shared.css">
+  <template>
+    <style>
+      h1 {
+      	color: blue;
+      }
+    </style>
+    <h1>Poly-Two</h1>
+    <p>This component uses a scoped style sheet import</p>
+  </template>
+</dom-module>
+
+<script>
+  Polymer({
+    is: "poly-two",
+  });
+</script>
