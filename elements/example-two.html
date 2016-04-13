@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+
+  <!-- Import Polymer -->
+  <link href="../bower_components/polymer/polymer.html" rel="import">
+
+</head>
+
+<dom-module id="example-two">
+
+  <!-- Import CSS file above template -->
+  <link rel="import" type="css" href="../styles/shared.css">
+
+  <!-- Component HTML -->
+  <template>
+    <style>
+      h1 {
+        color: blue;
+        font-style: italic;
+      }
+    </style>
+    <h1>example-two</h1>
+    <p>Importing the shared style CSS file directly.</p>
+  </template>
+
+  <!-- Component Script -->
+  <script>
+    Polymer({
+      is: "example-two",
+    });
+  </script>
+
+</dom-module>

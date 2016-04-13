@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+
+  <!-- Import polymer -->
+  <link href="../bower_components/polymer/polymer.html" rel="import">
+
+  <!-- Import shared style component -->
+  <link rel="import" href="./shared-style.html">
+
+</head>
+
+<dom-module id="example-one">
+
+  <!-- Component HTML -->
+  <template>
+    <!-- Include shared styling -->
+    <style include="shared-style">
+      h1 {
+        color: red;
+        font-weight: 700;
+      }
+    </style>
+    <h1>example-one</h1>
+    <p>Using a shared style web component.</p>
+  </template>
+
+  <!-- Component Script -->
+  <script>
+    Polymer({
+      is: "example-one",
+    });
+  </script>
+
+</dom-module>
