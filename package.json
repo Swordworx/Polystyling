@@ -1,7 +1,7 @@
 {
   "name": "polystyling",
   "version": "1.0.0",
-  "description": "Polymer shared styling using CSS files",
+  "description": "Polymer shared styles using CSS files",
   "main": "index.js",
   "scripts": {
   	"start": "ws -p 9128"
@@ -11,5 +11,8 @@
   "repository" : {
   	"type" : "git",
   	"url" : "https://github.com/Swordworx/Polystyling.git"
+  },
+  "devDependencies": {
+    "local-web-server": "^1.1.0"
   }
 }
