@@ -1,6 +1,6 @@
 # Polystyling
 
-[Polymer](https://www.polymer-project.org/1.0/) shared styles using CSS files (deprecated).
+[Polymer](https://www.polymer-project.org/1.0/) shared styles using CSS files (deprecated)
 
 ### Styling the Shadow DOM with a CSS file
 
@@ -28,10 +28,10 @@ Directly importing the CSS file
 </dom-module>
 ```
 
-
 ### Requirements
 
 [NPM](https://www.npmjs.com/)
+
 [Bower](http://bower.io/)
 
 ### Development
