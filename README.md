@@ -1,8 +1,8 @@
 # Polystyling
 
-[Polymer](https://www.polymer-project.org/1.0/) shared styles using CSS files.
+[Polymer](https://www.polymer-project.org/1.0/) example of shared styles using CSS files.
 
-Warning. This is a deprecated styling method, but polymer provides no alternative.
+Warning. This is a deprecated method, but currently polymer provides no alternative.
 
 ### Styling the Shadow DOM with a CSS file
 
