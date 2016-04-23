@@ -1,6 +1,8 @@
 # Polystyling
 
-[Polymer](https://www.polymer-project.org/1.0/) shared styles using CSS files (deprecated)
+[Polymer](https://www.polymer-project.org/1.0/) shared styles using CSS files.
+
+Warning. This is a deprecated styling method, but polymer provides no alternative.
 
 ### Styling the Shadow DOM with a CSS file
 
@@ -39,7 +41,7 @@ Directly importing the CSS file
 Install dependencies
 ```bash
 $ bower update
-$ npm intall
+$ npm install
 ```
 
 Run on local webserver
